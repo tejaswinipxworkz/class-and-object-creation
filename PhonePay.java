@@ -8,10 +8,6 @@ public class PhonePay {
 	String place;
 	int panNum;
 
-	PhonePay() {
-		System.out.println("Registration successful");
-	}
-
 	public void displayInfo() {
 		System.out.println(this.userName);
 		System.out.println(this.phoneNum);
